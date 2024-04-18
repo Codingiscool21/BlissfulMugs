@@ -1,13 +1,14 @@
 import streamlit as st
+import numpy as np
 
-st.markdown("", unsafe-allow-html=true)
-page_bg_color = """
-<style>
-[data-testid="stAppViewContainer"]{
-background-color: #FFFFFF;
-}
-</style>
-"""
+img_file_buffer = st.file_uploader("Upload a PNG image", type='png')
+
+if img_file_buffer is not None:
+  image = Image.open(img_file_buffer)
+  img_array = np.array(Image)
+
+
+
 
 st.markdown(page_bg_color, unsafe-allow-html=True)
 st.title("Blissful Mugs")
