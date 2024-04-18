@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 
 st.title("Blissful Mugs")
+st.subheader("Upload an Imge and we will print it on your mug")
 
 img_file_buffer = st.file_uploader("Upload a PNG image", type='png')
 
