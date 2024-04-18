@@ -8,7 +8,4 @@ if img_file_buffer is not None:
   img_array = np.array(Image)
 
 
-
-
-st.markdown(page_bg_color, unsafe-allow-html=True)
 st.title("Blissful Mugs")
