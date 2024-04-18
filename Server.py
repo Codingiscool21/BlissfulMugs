@@ -1,2 +1,3 @@
 import streamlit as st
-st.title("Blissful Mugs")
+
+st.markdown("", unsafe-allow-html=true)
