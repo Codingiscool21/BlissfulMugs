@@ -1,6 +1,8 @@
 import streamlit as st
 import numpy as np
 
+st.title("Blissful Mugs")
+
 img_file_buffer = st.file_uploader("Upload a PNG image", type='png')
 
 if img_file_buffer is not None:
@@ -8,4 +10,4 @@ if img_file_buffer is not None:
   img_array = np.array(Image)
 
 
-st.title("Blissful Mugs")
+
