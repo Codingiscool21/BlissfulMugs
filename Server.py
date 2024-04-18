@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+from PIL import Image
 
 st.title("Blissful Mugs")
 st.markdown("Upload an Image and we will print it on your mug")
